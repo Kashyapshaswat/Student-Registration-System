@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title shown in the browser tab-->
+    <title>Student Registration  System</title>
+    <!--Description-->
+    <meta name="description" content="A simple web based student registration system that allows adding, editing, and deleting student entries.">
+    <!--Author-->
+    <meta name="author" content="Shaswat Kashyap">
+    <!--For SEO-->
+    <meta name="SEO" content="Student Registration, HTML, CSS, Javascript, CRUD">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <!--Heading-->
+    <header class="header">
+        <h1>Student Registration System</h1>
+        <p>This is a web-based student registration system which allows users to enter their name, student ID, email, and contact number.
+            Users can view all entries, edit and delete them. Designed using HTML, CSS, and Javascript.
+        </p>
+    </header>
+    <!--Content-->
+    <div class="content">
+        <!--Form-->
+        <div class="form">
+            <!--Form Inputs and Add btn-->
+            <div class="inputgrp">
+                <label for="name">Student Name </label>
+                <input id="name" type="text" placeholder="Student Name">
+            </div>
+            <div class="inputgrp">
+                <label for="ID">Student ID </label>
+                <input id="ID" type="number" placeholder="Student ID">
+            </div>
+            <div class="inputgrp">
+                <label for="EmailId">Email ID </label>
+                <input id="EmailId" type="email" placeholder="e.g. student@example.com">
+            </div>
+            <div class="inputgrp">
+                <label for="Rollno">Contact No </label>
+                <input id="Rollno" type="tel" placeholder="Roll No">
+            </div>
+            <div class="inputgrp">
+                <button class="Add">Add</button>
+            </div>
+        </div>
+        <!--Entries-->
+        <div class="entries">
+            <!--Entries Headings-->
+            <div class="heading">
+                <h3 class="entryname">Name</h3>
+                <h3 class="entryid">ID</h3>
+                <h3 class="entryemail">Email</h3>
+                <h3 class="entrycontact">Contact</h3>
+            </div>
+            <div class="entry-container">
+                <!-- Entries -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
